@@ -1,0 +1,400 @@
+.container {
+    height: fit-content;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1%;
+}
+
+.head {
+    color: teal;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: left;
+    /* margin-top: 1%; */
+    margin-bottom: 6px;
+}
+
+.hr1 {
+    background-color: rgb(242, 145, 145);
+    height: 1px;
+    width: 6%;
+    margin-left: 2px;
+    margin-top: 0%;
+    border-color: rgb(242, 145, 145);
+    margin-bottom: 30px;
+}
+
+.leftalign {
+    text-align: justify;
+}
+
+.image {
+    height: 389px;
+    width: 518px;
+    margin-left: 240px;
+    border-radius: 10px;
+}
+
+.image1 {
+    height: 191px;
+    width: 370px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.imgcon {
+    display: flex;
+    margin-top: 17px;
+}
+
+.image2 {
+    height: 191px;
+    width: 370px;
+    margin-left: -366px;
+    margin-top: 199px;
+    border-radius: 10px;
+
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.midcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midcon1 {
+    margin-top: 15px;
+}
+
+.midcon2 {
+    height: 485px;
+    width: 27%;
+    background-color: rgb(61, 59, 59);
+    display: flex;
+    align-items: center;
+    margin-top: -404px;
+
+}
+
+.add {
+    color: white;
+    margin: auto;
+}
+
+.midcons {
+    background-color: rgb(103, 100, 100);
+    height: 200px;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.cardcontent {
+    margin-left: 320px;
+    width: 278px;
+    text-align: left;
+}
+
+.card1 {
+    color: rgb(23, 22, 22);
+    margin-top: -199px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.card1para {
+    color: rgb(60, 59, 59);
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.card1footer {
+    font-weight: 500;
+    margin-left: -1px;
+    margin-top: 8px;
+}
+
+/* .light {
+    color: rgb(60, 59, 59);
+} */
+
+.left {
+    margin-left: 622px;
+    margin-top: -365px;
+}
+
+.hrleft {
+    margin-left: 629px;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+}
+
+.img11 {
+    height: 200px;
+    width: 210px;
+    margin-left: 640px;
+    margin-top: -10px;
+}
+
+.img1 {
+    height: 200px;
+    width: 270px;
+    margin-left: 500px;
+}
+
+.cardcontent1 {
+    margin-left: 635px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+.imagee {
+    height: 294px;
+    width: 524px;
+    margin-left: -374px;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
+.cardctnt {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: -330px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cardfooter {
+    margin-left: -90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.imgright {
+    /* height: 120px; */
+    width: 145px;
+    margin-left: 913px;
+    margin-top: -500px;
+    padding: 20px;
+}
+
+.imgright1 {
+    height: 135px;
+    width: 190px;
+    margin-left: 495px;
+    margin-top: -443px;
+    padding: 20px;
+}
+
+.imgright2 {
+    height: 119px;
+    width: 145px;
+    margin-left: 913px;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+.small {
+    display: flex;
+    gap: 21px;
+}
+
+/* .small1{
+
+} */
+.ctnt {
+    width: 127px;
+    height: 23px;
+    margin-left: -21px;
+    text-align: left;
+    margin-top: -250px;
+    margin-bottom: 24%;
+}
+
+.ctnt1 {
+    width: 127px;
+    height: 23px;
+    margin-left: -21px;
+    text-align: left;
+    margin-top: -275px;
+}
+
+.ctnt2 {
+    width: 127px;
+    height: 23px;
+    margin-left: -21px;
+    text-align: left;
+    margin-top: -100px;
+    margin-bottom: 3%;
+}
+
+.cardctntright {
+    font-size: 15px;
+    width: 132px;
+    margin-top: 40px;
+}
+
+.cardfooterright {
+    margin-left: 0px;
+    margin-top: -4px;
+    font-size: smaller;
+
+}
+
+.cardctntright1 {
+    font-size: 15px;
+    width: 132px;
+    margin-top: 100px;
+}
+
+.cardfooterright1 {
+    font-size: smaller;
+    margin-top: -138px;
+    width: 133px;
+    margin-left: -156px;
+}
+
+.cardctntright2 {
+    font-size: 15px;
+    width: 132px;
+    margin-top: -23px;
+}
+
+.cardfooterright2 {
+    margin-left: -146px;
+    margin-top: -140px;
+    font-size: smaller;
+}
+
+.head2 {
+    margin-top: 50px;
+    margin-left: 315px;
+}
+
+.hr2 {
+    margin-left: 315px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-left: 311px;
+    gap: 23px;
+}
+
+.last1 {
+    height: 236px;
+    width: 316px;
+}
+
+.last11 {
+    margin-top: 13px;
+    text-align: left;
+}
+
+.last1para {
+    text-align: left;
+}
+
+.last1footer {
+    text-align: left;
+
+}
+
+.lastimg {
+    height: 235px;
+    width: 289px;
+    margin-left: 45%;
+}
+
+.bottomargin {
+    margin-bottom: 22%;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    .hr1 {
+        width: 28%;
+    }
+
+    .image {
+        margin-left: 80px;
+    }
+
+    .head {
+        width: 290px;
+    }
+
+    .midcon {
+        display: flex;
+        justify-content: space-between;
+        width: 954px;
+    }
+
+    .midcon2 {
+        margin-right: 28px;
+    }
+
+    .left {
+        margin-left: 666px;
+    }
+
+    .hrleft {
+        margin-left: 666px;
+    }
+
+    .img1 {
+        margin-left: 666px;
+    }
+
+    .cardcontent1 {
+        margin-left: 666px;
+        width: 200px;
+    }
+
+    .lastimg {
+        margin-left: 457px;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+
+    .cardfooter {
+        margin-left: -278px;
+        margin-top: -1px;
+    }
+
+    .small {
+        margin-left: -177px;
+    }
+
+    .small1 {
+        margin-top: 73px;
+    }
+
+    .small2 {
+        margin-top: -27px;
+    }
+
+    .fit {
+        margin-left: -2px;
+    }
+
+    .foot {
+        margin-left: -18px;
+    }
+
+    .no {
+        display: none;
+    }
+}

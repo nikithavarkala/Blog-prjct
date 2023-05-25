@@ -1,0 +1,133 @@
+.containerhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr11 {
+    background-color: rgb(190, 7, 7);
+    height: 3px;
+    width: 45%;
+    margin-left: 2px;
+    margin-top: 0%;
+    border-color: rgb(190, 7, 7);
+}
+
+.containercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+
+.contentcard,
+.bolimg {
+    height: 300px;
+    width: 300px;
+}
+
+.ch1 {
+    margin-top: 20px;
+
+}
+
+.pcontent {
+    margin-top: 14px;
+}
+
+.p1content {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.p2content {
+    text-align: left;
+    font-size: 17px;
+}
+
+.p1 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 23px;
+
+}
+
+.p2 {
+    text-align: left;
+    font-size: 17px;
+}
+
+.anothercontainercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 373px;
+}
+
+.conctnts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+    margin-top: 200px;
+}
+
+.conctnt {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pcontent1 {
+    margin-left: 330px;
+    width: 300px;
+    margin-top: -303px;
+}
+
+.advertise {
+    background-color: grey;
+    border: 1px solid grey;
+    height: 800px;
+    width: 50%;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white;   */
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    .advertisement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        margin-left: -33px;
+        margin-top: 31%;
+    }
+
+    .contentcard {
+        width: 283px;
+        margin-left: -14px;
+    }
+
+    .anothercontainercontent {
+        margin-left: -36px;
+    }
+
+    .pcontent {
+        margin-top: 10px;
+        margin-left: -21px;
+        width: 234px;
+    }
+
+    .conctnt {
+        margin-top: 14%;
+    }
+
+    .conctnts {
+        margin-left: 23px;
+    }
+}
