@@ -20,10 +20,16 @@
     gap: 33px;
 }
 
-.contentcard,
+.contentcard {
+    height: 250px;
+    width: 280px;
+    font-family: 'PT Serif', serif;
+}
+
 .bolimg {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
 }
 
 .ch1 {
@@ -39,23 +45,30 @@
     text-align: left;
     font-weight: bolder;
     font-size: 23px;
+    margin-bottom: 6px;
+    font-family: 'PT Serif', serif;
+
 }
 
 .p2content {
     text-align: left;
     font-size: 17px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
 }
 
 .p1 {
     text-align: left;
     font-weight: bolder;
     font-size: 23px;
-
+    padding-bottom: 10px;
 }
 
 .p2 {
     text-align: left;
-    font-size: 17px;
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-bottom: 16px;
 }
 
 .anothercontainercontent {
@@ -65,47 +78,60 @@
     gap: 373px;
 }
 
+.line {
+    background-color: rgb(242, 145, 145);
+    height: 1px;
+    width: 60px;
+    margin-left: -210px;
+    margin-top: -17px;
+    border-color: rgb(242, 145, 145);
+}
+
+.headp {
+    margin: -26px;
+    margin-left: -140px;
+    margin-bottom: -10px;
+    margin-top: 8px;
+    /* color: black; */
+    /* text-decoration: underline rgb(200, 114, 114) 4px; */
+}
+
 .conctnts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 33px;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 .conctnt {
-    height: 300px;
-    width: 300px;
-
+    height: 250px;
+    width: 280px;
 }
 
 .pcontent1 {
-    margin-left: 330px;
+    margin-left: 300px;
     width: 300px;
-    margin-top: -303px;
+    margin-top: -200px;
+    font-family: 'PT Serif', serif;
 }
 
+
 .advertise {
-    background-color: grey;
-    border: 1px solid grey;
+    border: 2px solid grey;
     height: 800px;
     width: 50%;
     margin-top: -80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* color: white;   */
+    margin-left: 20px;
 }
 
-@media (min-width:0px) and (max-width:600px) {
-    .advertisement {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 200px;
-        margin-left: -33px;
-        margin-top: 31%;
+@media (min-width:0px) and (max-width:450px) {
+    .advertise {
+        display: none;
     }
 
     .contentcard {
@@ -114,20 +140,110 @@
     }
 
     .anothercontainercontent {
-        margin-left: -36px;
+        margin-left: -16px;
     }
 
     .pcontent {
         margin-top: 10px;
-        margin-left: -21px;
-        width: 234px;
+        margin-left: 10px;
+        width: 280px;
+    }
+
+    .bolimg {
+        height: 120px;
+        width: 150px;
     }
 
     .conctnt {
-        margin-top: 14%;
+        margin-top: 1%;
     }
 
     .conctnts {
-        margin-left: 23px;
+        margin-left: -12px;
+    }
+
+    .containercontent {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .images {
+        width: 350px;
+        margin-left: 10px;
+        height: 220px;
+    }
+
+    .contentcard {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .pcontent1 {
+        margin-left: 160px;
+        width: 160px;
+        margin-top: -116px;
+        /* font-size: small; */
+    }
+
+    .p1,
+    .p2 {
+        font-size: x-small;
+
+    }
+
+    .card1footer {
+        font-size: x-small;
+        margin-top: -10px;
+    }
+
+    .headp {
+        margin-left: -90px;
+        margin-top: -150px;
+    }
+
+    .line {
+        margin-top: -142px;
+        margin-left: -195px;
+    }
+
+    .div1 {
+        margin-top: -150px;
+        width: 340px;
+        margin-left: 20px;
+    }
+
+    .p2content {
+        font-size: small;
+        margin-bottom: 16px;
+    }
+
+    .p1content {
+        font-size: medium;
+    }
+
+    .anothercontainercontent {
+        margin-bottom: -96px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:900px) {
+    .containercontent{
+        gap:0px;
+    }
+    .bolimg{
+        width:31vw;
+    }
+    .pcontent1{
+        margin-left: 280px;
+    }
+    .advertise{
+        width:10vw;
+        margin-left: 0px;
+    }
+    .advertise h2{
+        transform: rotate(90deg);
+    }
+    .anothercontainercontent{
+        justify-content:space-evenly ;
+        gap:350px;
     }
 }
