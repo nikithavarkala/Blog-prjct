@@ -18,31 +18,31 @@
     margin-top: 2%;
     margin-left: 5%;
     color: black;
-    font-size: larger;
+    /* font-size: large; */
     font-weight: 500;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     text-decoration: underline rgb(148, 221, 245);
+    font-family: 'PT Serif', serif;
 }
 
-/* .header:hover {
-    color: cornflowerblue;
-} */
 
 .avatar {
     height: 60px;
     width: 60px;
+    border-radius: 50%;
 }
 
 .insidehead {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 150px;
 }
 
 .insides {
     display: flex;
     justify-content: space-around;
     text-align: left;
-    gap: 22px;
+    gap: 16px;
     margin-top: 15px;
 }
 
@@ -62,38 +62,47 @@
 
 .content {
     height: fit-content;
-    width: 60%;
+    width: 83%;
     text-align: justify;
     margin: auto;
 }
 
 .castandmovie {
-    display: flex;
+    display: block;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 2%;
+
 }
 
 .cast {
     text-align: justify;
-    margin-left: -95px;
+    margin-left: 15px;
+}
+
+.plot {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 48px;
 }
 
 .movie1 {
     display: flex;
     flex-direction: column;
     gap: 22px;
-    margin-left: -499px;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
 
-li {
-    font-size: 27px;
-    text-align: left;
+.mv1 {
+    margin-left: 70px;
+    margin-top: 2%;
 }
+
 
 .cast1 {
     text-align: justify;
-    margin-left: -68px;
-
+    margin-left: 40px;
 }
 
 .cast2 {
@@ -106,90 +115,86 @@ li {
     margin-left: -122px;
 }
 
-.img1 {
-    margin-left: 220px;
-    margin-bottom: 10px;
-    height: 300px;
-    width: 400px;
+.box {
+    border: 2px solid rgb(203, 200, 200);
+    width: 38%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: gainsboro;
 }
 
-@media (min-width:0px) and (max-width:600px) {
-    .the {
-        margin-left: -88px;
-        padding: 84px;
-        margin-top: 66px;
+.img1 {
+    margin-left: 33px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px gray;
+}
+
+.hr {
+    height: 3px;
+    background-color: rgb(210, 207, 207);
+}
+
+@media (max-width:450px) {
+    .box {
+        width: 91%;
+        font-size: small;
+        margin-top: 10px;
+        margin-left: 4%;
+        margin-bottom: 15px;
     }
 
-    .heading {
-        font-size: 58px;
-        margin-top: -210px;
-        margin-left: -147px;
+    .hr {
+        width: 360px;
     }
 
-    .the2 {
-        margin-left: -20px;
-        padding: 11px;
-        margin-top: 66px;
-    }
-
-    .heading2 {
-        font-size: 27px;
-        margin-top: -3px;
-        margin-left: 4px;
+    .header {
+        margin-top: 10%;
     }
 
     .gl {
-        margin-top: -12px;
-        margin-bottom: 20px;
+        font-size: larger;
+        margin-top: 10px;
+        /* margin-left: -30px; */
     }
 
-    .avatar {
-        height: 20px;
-        width: 20px;
+    .insidehead {
+        gap: 50px;
     }
 
-    .distance {
-        line-height: 16px;
+    .img1 {
+        width: 290px;
+        height: 250px;
+        margin-left: 16px;
     }
 
-    .logos {
-        height: 60px;
-        width: 60px;
-        margin-top: -22px;
+    li {
+        font-size: large;
     }
+}
 
-    .bolimg {
-        margin-left: -50px
-    }
-
-    .castandmovie {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3%;
-        margin-left: 130px;
-    }
-
-    .movie1 {
-        margin-left: -100px;
-    }
-
-    .h3 {
-        margin-left: -260px;
-    }
-
-    .cast1 {
-        margin-left: -100px;
-    }
-
-    .cast2 {
-        margin-left: -89px;
-    }
-
-    .cast3 {
-        margin-left: -89px;
-    }
-
-    .horizontaline {
-        display: none;
-    }
+@media screen and (min-width:500px) and (max-width:900px) {
+        .box{
+            width:90vw;
+            padding-bottom: 10px;
+        }
+        .img1{
+            margin-left: 14%;
+            width:70%;
+        }
+        .castandmovie{
+            display: none;
+        }
+        .gl{
+            margin-top:2px;
+        }
+        .hr{
+            width:85vw;
+            margin-left: 25px;
+        }
 }
