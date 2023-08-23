@@ -6,6 +6,33 @@
     margin-top: 1%;
 }
 
+.div {
+    width: 200%;
+    /* width: 66%; */
+    height: 3px;
+    background-color: rgb(232, 221, 221);
+    border: none;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.div1 {
+    width: 215%;
+    height: 3px;
+    background-color: rgb(232, 221, 221);
+    border: none;
+    margin-top: -60px;
+    margin-bottom: -10px;
+    margin-left: 280px;
+}
+
+.no {
+    height: 3px;
+    background-color: rgb(232, 221, 221);
+    border: none;
+    width: 70%;
+}
+
 .head {
     color: teal;
     font-weight: bolder;
@@ -13,6 +40,46 @@
     text-align: left;
     /* margin-top: 1%; */
     margin-bottom: 6px;
+    font-family: 'PT Serif', serif;
+}
+
+.thelatest {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.lateststry {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.container1 {
+    height: fit-content;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    height: fit-content;
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    /* margin-top: -40px; */
+}
+
+.middlecontent {
+    /* margin-left: 280px; */
+    margin-top: 180px;
+    width: 278px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
 }
 
 .hr1 {
@@ -77,7 +144,8 @@
 .midcon2 {
     height: 485px;
     width: 27%;
-    background-color: rgb(61, 59, 59);
+    /* background-color: rgb(61, 59, 59); */
+    border: 2px solid black;
     display: flex;
     align-items: center;
     margin-top: -404px;
@@ -85,28 +153,32 @@
 }
 
 .add {
-    color: white;
     margin: auto;
 }
 
 .midcons {
-    background-color: rgb(103, 100, 100);
+    /* background-color: rgb(103, 100, 100); */
     height: 200px;
     width: 300px;
     margin-bottom: 12px;
 }
 
 .cardcontent {
-    margin-left: 320px;
+    margin-left: 280px;
     width: 278px;
     text-align: left;
+    font-family: 'PT Serif', serif;
 }
 
 .card1 {
     color: rgb(23, 22, 22);
-    margin-top: -199px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
+    margin-top: -168px;
+    font-size: larger;
+    font-family: 'PT Serif', serif;
+}
+
+.card11 {
+    font-size: xx-large;
 }
 
 .card1para {
@@ -121,9 +193,9 @@
     margin-top: 8px;
 }
 
-/* .light {
-    color: rgb(60, 59, 59);
-} */
+.light {
+    color: rgb(173, 170, 170);
+}
 
 .left {
     margin-left: 622px;
@@ -135,8 +207,9 @@
 }
 
 .img {
-    height: 200px;
-    width: 300px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5px;
 }
 
 .img11 {
@@ -144,6 +217,7 @@
     width: 210px;
     margin-left: 640px;
     margin-top: -10px;
+    border-radius: 5px;
 }
 
 .img1 {
@@ -159,49 +233,61 @@
 }
 
 .imagee {
-    height: 294px;
+
+    height: 350px;
     width: 524px;
-    margin-left: -374px;
-    margin-top: 22px;
-    border-radius: 10px;
+    /* height: 380px;
+    width: 550px; */
+    position: relative;
+    top: -220px;
+    margin-left: -414px;
+    margin-top: -300px;
+    border-radius: 8px;
+    /* z-index: -1; */
 }
 
 .cardctnt {
     text-align: center;
-    margin-top: -130px;
-    margin-left: -330px;
+    margin-top: -200px;
+    margin-left: -600px;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
+    /* z-index: 1; */
 }
 
 .cardfooter {
-    margin-left: -90px;
-    margin-top: 20px;
+    margin-left: -280px;
+    margin-top: 15px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .imgright {
     /* height: 120px; */
     width: 145px;
-    margin-left: 913px;
-    margin-top: -500px;
+    margin-left: 850px;
+    margin-top: -26px;
     padding: 20px;
 }
 
 .imgright1 {
-    height: 135px;
-    width: 190px;
-    margin-left: 495px;
-    margin-top: -443px;
+    height: 105px;
+    width: 150px;
+    margin-left: 850px;
+    margin-top: -135px;
     padding: 20px;
 }
 
 .imgright2 {
     height: 119px;
     width: 145px;
-    margin-left: 913px;
-    margin-top: -100px;
+    margin-left: 850px;
+    margin-top: -23px;
     padding: 20px;
+}
+
+.leftdown {
+    margin-top: 30px;
 }
 
 .small {
@@ -209,70 +295,73 @@
     gap: 21px;
 }
 
-/* .small1{
-
-} */
 .ctnt {
     width: 127px;
     height: 23px;
-    margin-left: -21px;
+    margin-left: 5px;
     text-align: left;
-    margin-top: -250px;
+    margin-top: -98px;
     margin-bottom: 24%;
 }
 
 .ctnt1 {
     width: 127px;
     height: 23px;
-    margin-left: -21px;
+    margin-left: 5px;
     text-align: left;
-    margin-top: -275px;
+    margin-top: -155px;
+    margin-bottom: 10%;
 }
 
 .ctnt2 {
     width: 127px;
     height: 23px;
-    margin-left: -21px;
+    margin-left: 1px;
     text-align: left;
-    margin-top: -100px;
+    margin-top: -20px;
     margin-bottom: 3%;
 }
 
 .cardctntright {
     font-size: 15px;
     width: 132px;
-    margin-top: 40px;
+    margin-top: 60px;
+    padding-top: 30px;
 }
 
 .cardfooterright {
     margin-left: 0px;
-    margin-top: -4px;
+    /* margin-top: -4px; */
     font-size: smaller;
-
 }
 
 .cardctntright1 {
-    font-size: 15px;
+    font-size: 13px;
     width: 132px;
-    margin-top: 100px;
+    margin-top: 20px;
+    padding-top: 40px;
 }
 
 .cardfooterright1 {
     font-size: smaller;
-    margin-top: -138px;
+    margin-top: -70px;
     width: 133px;
     margin-left: -156px;
+    padding-left: 5px;
+    padding-bottom: 12px;
 }
 
 .cardctntright2 {
     font-size: 15px;
     width: 132px;
-    margin-top: -23px;
+    margin-top: -3px;
+    padding-top: 35px;
 }
 
 .cardfooterright2 {
-    margin-left: -146px;
-    margin-top: -140px;
+    margin-left: -145px;
+    margin-top: 25px;
+    padding-top: 30px;
     font-size: smaller;
 }
 
@@ -282,7 +371,9 @@
 }
 
 .hr2 {
-    margin-left: 315px;
+    margin-top: 30px;
+    width: 450px;
+    margin-left: -210px;
 }
 
 .last {
@@ -316,85 +407,347 @@
 .lastimg {
     height: 235px;
     width: 289px;
-    margin-left: 45%;
+    margin-left: 650px;
+    margin-bottom: -300px;
+    margin-top: 40px;
 }
 
 .bottomargin {
     margin-bottom: 22%;
 }
 
-@media (min-width:0px) and (max-width:600px) {
-    .hr1 {
-        width: 28%;
+/* Footer Styles */
+
+.footer {
+    background-color: #f5f5f5;
+    /* background-color: black; */
+    padding: 20px;
+    margin-top: 72px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer__nav-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.footer__nav-item {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.footer__nav-item a {
+    /* color: #333; */
+    color: #777;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer__nav-item a:hover {
+    color: black;
+}
+
+.footer__social-media a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.logos1 {
+    height: 90px;
+    width: 90px;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.footer__bottom {
+    text-align: center;
+    color: #777;
+}
+
+.fa {
+    font-size: 18px;
+}
+
+@media (max-width:450px) {
+
+    .image2,
+    .image1 {
+        display: none;
     }
 
     .image {
-        margin-left: 80px;
+        height: 350px;
+        width: 360px;
+        margin-left: 10px;
+        margin-top: 2px;
+        border-radius: 10px;
+    }
+
+    .thelatest {
+        margin-top: 16px;
+        display: block;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        /* margin-top: 20px; */
     }
 
     .head {
-        width: 290px;
+        font-size: 30px;
+        width: 200px;
+        margin-left: 10px;
+        margin-bottom: 6px;
+        font-family: 'PT Serif', serif;
+    }
+
+    .hr1 {
+        height: 2px;
+        width: 12%;
+        margin-left: 15px;
+        margin-top: 0%;
+    }
+
+    .middlecontent {
+        font-size: 13px;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    /* .card1para {
+        width: 290%;
+    } */
+
+    .img {
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .middle {
+        margin-left: 46px;
+        margin-top: 8px;
+    }
+
+    .container {
+        height: fit-content;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 1%;
+        margin-left: 0px;
+    }
+
+    .midcon2 {
+        display: none;
+    }
+
+    .midcons {
+        height: 400px;
+        width: 0px;
+        margin-bottom: 10px;
+    }
+
+    .midcon1 {
+        margin-top: 15px;
     }
 
     .midcon {
         display: flex;
-        justify-content: space-between;
-        width: 954px;
+        /* justify-content: none; */
+        align-items: center;
     }
 
-    .midcon2 {
-        margin-right: 28px;
+    .article {
+        height: 160px;
+        width: 180px;
+        margin-left: 5px;
+        margin-top: 6px;
     }
 
-    .left {
-        margin-left: 666px;
+    .cardcontent {
+        margin-left: 200px;
+        margin-top: -100px;
+        width: 130px;
+        font-size: small;
     }
 
-    .hrleft {
-        margin-left: 666px;
-    }
-
-    .img1 {
-        margin-left: 666px;
-    }
-
-    .cardcontent1 {
-        margin-left: 666px;
-        width: 200px;
-    }
-
-    .lastimg {
-        margin-left: 457px;
-        margin-top: 2%;
-        margin-bottom: 10%;
-    }
-
-    .cardfooter {
-        margin-left: -278px;
-        margin-top: -1px;
-    }
-
-    .small {
-        margin-left: -177px;
-    }
-
-    .small1 {
-        margin-top: 73px;
-    }
-
-    .small2 {
-        margin-top: -27px;
-    }
-
-    .fit {
-        margin-left: -2px;
-    }
-
-    .foot {
-        margin-left: -18px;
+    .div {
+        width: 356px;
+        height: 5px;
+        margin-top: -200px;
+        background-color: rgb(199, 197, 197);
     }
 
     .no {
+        width: 67%;
+    }
+
+    .left {
+        margin-left: 10px;
+        margin-top: -210px;
+    }
+
+    .hrleft {
+        margin-left: 14px;
+    }
+
+    .img11 {
+        height: 250px;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 6px;
+        border-radius: 10px;
+    }
+
+    .cardcontent1 {
+        margin-left: 30px;
+        margin-top: 180px;
+        text-align: left;
+    }
+
+    .card11 {
+        font-size: 20px;
+    }
+
+    .lastimg {
         display: none;
+    }
+
+    .leftdown {
+        display: none;
+    }
+
+    .tp {
+        display: none;
+    }
+
+    .lateststry {
+        display: block;
+        margin-top: 18px;
+    }
+
+    .container1 {
+        width: 50%;
+        padding: 0px;
+        margin-left: -2px;
+    }
+
+    #card1para1 {
+        width: 300px;
+    }
+
+    .stry {
+        margin-left: 5px;
+        width: 360px;
+    }
+
+    .footer {
+        width: 88%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: large;
+    }
+
+    .footer__nav-item {
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    .image{
+        margin-left: 0px;
+        width:55vw;
+    }
+    .image1{
+        width:43vw;
+    }
+    .image2{
+        width:43vw;
+        margin-left: -330px;
+    }
+    .container2{
+        width:99%;
+    }
+    .thelatest{
+        gap:0px;
+        /* margin-left: 85px; */
+        justify-content: space-between;
+    }
+    .img{
+        width:28vw;
+    }
+    .card1para{
+        width:26vw;
+    }
+    .middle{
+        width:30vw;
+    }
+    .container{
+        width:99vw;
+    }
+    .div{
+        width:70vw;
+    }
+    .midcon2{
+        width:20vw;
+        margin-top: -370px;
+        height: 80vw;
+    }
+    .midcon{
+        justify-content:space-evenly;
+    }
+    .cardcontent{
+        margin-left: 270px;
+    }
+    .left{
+        margin-top: -300px;
+        margin-left: 590px;
+    }
+    .hrleft{
+        margin-left: 598px;
+    }
+    .img11{
+        margin-left: 570px;
+        margin-top: -15px;
+        width:24vw;
+    }
+    .cardcontent1{
+        display: none;
+    }
+    .lastimg {
+        display: none;
+    }
+
+    .leftdown {
+        display: none;
+    }
+
+    .tp {
+        display: none;
+    }
+    .middlecontent{
+        width:22vw;
+    }
+    .lateststry{
+        gap:17px;
+
     }
 }
